@@ -1,0 +1,10 @@
+<web-app>
+    <servlet>
+        <servlet-name>AddTaskServlet</servlet-name>
+        <servlet-class>AddTaskServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddTaskServlet</servlet-name>
+        <url-pattern>/addTask</url-pattern>
+    </servlet-mapping>
+</web-app>
